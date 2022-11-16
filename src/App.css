@@ -30,7 +30,9 @@
 }
 
 .hero-img {
-  width: 395px; 
+  width: 600px;
+  max-width: 100%; 
+  height: auto;
   align-self: center;
 }
 

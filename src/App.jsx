@@ -8,7 +8,7 @@ import masterData from './data';
 const App = () => {
   const cards = masterData.map(elem => {
     const cardData = {
-      key: elem.id,
+      key: elem.id, //IMPORTANT
       img: elem.coverImg, 
       title: elem.title, 
       rating: elem.stats.rating, 
