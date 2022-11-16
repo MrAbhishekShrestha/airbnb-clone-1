@@ -1,4 +1,4 @@
-import katieImg from '../../public/images/katie.png';
+import katieImg from '../../public/images/katie-zaferes.png';
 import starImg from '../../public/images/star.png';
 import "../App.css";
 
