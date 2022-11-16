@@ -11,6 +11,14 @@
   border-top-right-radius: 12px;
 }
 
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .nav > object {
   width: 82px; 
 }
@@ -42,4 +50,30 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 110%;
+}
+
+.card {
+  width: 175px; 
+  font-size: 12px;
+  padding: 50px 0px 0px 36px; 
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-first-line {
+  display: flex;
+  align-items: center;
+  padding-top: 9px;
+  height: 14px;
+}
+
+.card-first-line > img, .card-first-line > span {
+  padding-right: 3px;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
 }
