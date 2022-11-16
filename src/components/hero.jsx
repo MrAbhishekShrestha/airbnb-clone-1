@@ -1,4 +1,4 @@
-import collage from "../assets/collage.png";
+import collage from "../../public/images/collage.png";
 import "../App.css";
 
 const Hero = () => (

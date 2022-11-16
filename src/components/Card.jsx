@@ -1,10 +1,10 @@
-import katieImg from '../assets/katie.png';
-import starImg from '../assets/star.png';
+import katieImg from '../../public/images/katie.png';
+import starImg from '../../public/images/star.png';
 import "../App.css";
 
 const Card = (props) => (
   <section className="card">
-    <img src={katieImg} alt="Katie Zaferers" className="card-image" />
+    <img src={`../../public/images/${props.img}`} alt="Katie Zaferers" className="card-image" />
     <div className="card-first-line">
       <img src={starImg} alt="star" className="star" />
       <span className='rating'>{props.rating}</span>
