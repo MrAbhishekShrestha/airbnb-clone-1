@@ -10,6 +10,7 @@ const App = () => {
     const cardData = {
       key: elem.id, //IMPORTANT
       img: elem.coverImg, 
+      imgLink: elem.imgLink,
       title: elem.title, 
       rating: elem.stats.rating, 
       reviewCount: elem.stats.reviewCount, 
