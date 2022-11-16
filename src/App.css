@@ -1,0 +1,45 @@
+.container {
+  margin: 10px;
+}
+
+.nav {
+  height: 70px;
+  display: flex;
+  padding: 22px 30px;
+  box-shadow:  0px 3px 7px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.nav > object {
+  width: 82px; 
+}
+
+.hero-main {
+  padding-top: 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  width: 395px; 
+  align-self: center;
+}
+
+.hero-title {
+  margin: 0;
+  padding-top: 32px; 
+  padding-left: 36px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.hero-text {
+  margin: 0;
+  padding: 16px 0px 0px 36px;
+  width: 320px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+}
