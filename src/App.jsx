@@ -15,7 +15,8 @@ const App = () => {
       rating: elem.stats.rating, 
       reviewCount: elem.stats.reviewCount, 
       country: elem.location, 
-      price: elem.price
+      price: elem.price, 
+      openSpots: elem.openSpots
     }
     return <Card {...cardData}/>;
   })
